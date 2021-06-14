@@ -7,7 +7,11 @@ console.log("hello world");
 const name = "glen"; //string
 const age = 30;      //number
 const good = true;    //boolean
-const sports = ["soccer", "baseball", "squash"]; //arry
-console.log(name);
+
+// 변수에 값이 할당되어 있지 않은 경우 undefined
+
+//함수,배열,객체 등도 타입이다.
+
+
 
  
