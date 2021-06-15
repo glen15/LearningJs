@@ -1,5 +1,5 @@
 'use strict';
-console.log("hello world");
+
 
 // 함수는 기능의 단위
 // 함수는 작은 기능의 단위
