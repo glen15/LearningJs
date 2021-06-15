@@ -1,5 +1,7 @@
 'use strict';
 
+//0616//
+
 const findTenPlace = score => {
     let num = Math.floor(score/10);
     if (num === 9) {
