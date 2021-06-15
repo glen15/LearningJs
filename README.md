@@ -1,2 +1,2 @@
-# codestate
+# Learning JavaScript
  
