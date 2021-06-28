@@ -1,5 +1,15 @@
-let myNum = [11, 22, 33, 44]
+function fibonacci(num) {
+  let result = [0, 1]
+  if (num === 0) {
+    return [0]
+  }
+  for (let i = 2; i <= num; i++) {
+    console.log('current list',result);
+    result.push(result[i-2] + result[i-1]);
+    console.log('added list', result);
+    console.log('\n\n');
+  }
+  return result
+};
 
-let result = myNum.reduce((pre, curr) => pre+curr, 0);
-
-console.log(result);
+fibonacci(5);
