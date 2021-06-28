@@ -13,3 +13,10 @@ function fibonacci(num) {
 };
 
 fibonacci(5);
+
+
+function getElementsUpTo(array, n) {
+  return array.slice(0, n);
+}
+
+console.log(getElementsUpTo([1,2,3,4], 2))
